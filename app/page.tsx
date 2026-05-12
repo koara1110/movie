@@ -374,15 +374,16 @@ export default function Home() {
       <section className="mx-auto grid max-w-7xl gap-12 px-6 py-14 lg:grid-cols-2 lg:items-center lg:gap-10 lg:py-20">
         <div className="flex max-w-xl flex-col justify-center">
           <h2 className="mb-5 text-4xl font-bold leading-[1.15] tracking-tight sm:text-5xl lg:text-6xl">
-            上映中の映画の
+            上映中映画の
             <br />
             興行収入を
+            <br />
             <span className="bg-gradient-to-r from-sky-400 to-cyan-300 bg-clip-text text-transparent">
               グラフで比較
             </span>
           </h2>
           <p className="mb-8 text-base leading-relaxed text-gray-400 sm:text-lg">
-            日別の興行収入推移を見える化。
+            日別の興行収入推移を可視化。
             <br className="hidden sm:block" />
             気になる映画の記録をリアルタイムでチェック。
           </p>
