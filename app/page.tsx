@@ -103,9 +103,9 @@ export default function Home() {const [movies, setMovies] = useState<any[]>([]);
           "https://api.themoviedb.org/3/movie/now_playing?language=ja-JP&page=1",
           {
             headers: {
-              Authorization: `Bearer ${process.env.NEXT_PUBLIC_TMDB_API_KEY}`,
+              Authorization: `Bearer ${"eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlNDUyZTQzYTY5NTNkYWVkMzNiNWZiYjU0YTc0M2YzNyIsIm5iZiI6MTc3ODU4NzU2NC4zMTEsInN1YiI6IjZhMDMxN2FjMGZiMDBkMjRlYzY4YjNkMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.nFF-3DXF6ZDzHEYe3LQ69eDqldUowUum1OdYfPubPhQ"}`,
               accept: "application/json",
-            },
+            }
           }
         );
   
